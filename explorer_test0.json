@@ -1,0 +1,787 @@
+{
+    "items": [
+        {
+            "tags": [
+                "python",
+                "c++",
+                "windows"
+            ],
+            "owner": {
+                "reputation": 1933,
+                "user_id": 4815264,
+                "user_type": "registered",
+                "accept_rate": 87,
+                "profile_image": "https://www.gravatar.com/avatar/1ac1bca0e55370eb7b53c02ff64a2927?s=128&d=identicon&r=PG&f=1",
+                "display_name": "James McDowell",
+                "link": "https://stackoverflow.com/users/4815264/james-mcdowell"
+            },
+            "is_answered": false,
+            "view_count": 90,
+            "bounty_amount": 200,
+            "bounty_closes_date": 1617207023,
+            "answer_count": 1,
+            "score": 4,
+            "last_activity_date": 1616772763,
+            "creation_date": 1616429260,
+            "last_edit_date": 1616635332,
+            "question_id": 66749737,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66749737/python-extension-dll-installation",
+            "title": "Python Extension Dll Installation"
+        },
+        {
+            "tags": [
+                "firebase",
+                "sorting",
+                "kotlin",
+                "task",
+                "storage"
+            ],
+            "owner": {
+                "reputation": 81,
+                "user_id": 3684570,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/100000302660470/picture?type=large",
+                "display_name": "ilbonte",
+                "link": "https://stackoverflow.com/users/3684570/ilbonte"
+            },
+            "is_answered": false,
+            "view_count": 14,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1616772759,
+            "creation_date": 1615936097,
+            "last_edit_date": 1615936573,
+            "question_id": 66664738,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66664738/sort-items-by-creation-time-in-firebase-storage-in-android",
+            "title": "Sort items by creation time in firebase storage in Android"
+        },
+        {
+            "tags": [
+                "amazon-ec2",
+                "apache-kafka",
+                "apache-zookeeper",
+                "kafka-consumer-api"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 13124019,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjnlOq0Va2ZRswEBf59Y_xHJplc3L3gAu9DgbeOww=k-s128",
+                "display_name": "Neale Chaudhury",
+                "link": "https://stackoverflow.com/users/13124019/neale-chaudhury"
+            },
+            "is_answered": false,
+            "view_count": 13,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1616772756,
+            "creation_date": 1616676249,
+            "question_id": 66799767,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66799767/kafka-broker-on-ec2-is-not-connecting-to-my-zookeeper-on-my-local-network",
+            "title": "Kafka broker on EC2 is not connecting to my zookeeper on my local network"
+        },
+        {
+            "tags": [
+                "elixir",
+                "profiling",
+                "distributed-system"
+            ],
+            "owner": {
+                "reputation": 569,
+                "user_id": 8178498,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/1c82b0e730648465eaf380de183f38a9?s=128&d=identicon&r=PG&f=1",
+                "display_name": "FrastoFresto",
+                "link": "https://stackoverflow.com/users/8178498/frastofresto"
+            },
+            "is_answered": false,
+            "view_count": 9,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772755,
+            "creation_date": 1616770232,
+            "last_edit_date": 1616772755,
+            "question_id": 66819183,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819183/can-we-profile-and-log-a-distributed-program-in-elexir",
+            "title": "Can we profile and log a distributed program in elexir?"
+        },
+        {
+            "tags": [
+                "popup",
+                "href",
+                "rollover"
+            ],
+            "owner": {
+                "reputation": 41,
+                "user_id": 11983922,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/2820755271272334/picture?type=large",
+                "display_name": "Terry McBride",
+                "link": "https://stackoverflow.com/users/11983922/terry-mcbride"
+            },
+            "is_answered": false,
+            "view_count": 3,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1616772754,
+            "creation_date": 1616772397,
+            "question_id": 66819795,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819795/text-popups-onmouseovers-no-weaselovers-allowed",
+            "title": "Text Popups OnMouseOvers, No WeaselOvers Allowed"
+        },
+        {
+            "tags": [
+                "python",
+                "windows",
+                "pip",
+                "pyodbc"
+            ],
+            "owner": {
+                "reputation": 3,
+                "user_id": 13074574,
+                "user_type": "registered",
+                "profile_image": "https://lh6.googleusercontent.com/-Z1IREEj_0EI/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nBrcaJsxllkH3E-lQTrSBH2rljjYQ/photo.jpg?sz=128",
+                "display_name": "Julian Avila",
+                "link": "https://stackoverflow.com/users/13074574/julian-avila"
+            },
+            "is_answered": false,
+            "view_count": 12,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772748,
+            "creation_date": 1616770796,
+            "last_edit_date": 1616772748,
+            "question_id": 66819352,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819352/cannot-install-pyodbc-using-pip-for-python-3-9-32-bit",
+            "title": "Cannot install pyodbc using pip for python 3.9 (32-bit)"
+        },
+        {
+            "tags": [
+                "c#",
+                "generics"
+            ],
+            "owner": {
+                "reputation": 1658,
+                "user_id": 4439019,
+                "user_type": "registered",
+                "accept_rate": 91,
+                "profile_image": "https://www.gravatar.com/avatar/ef8889f7e466495157e2527a85930a9c?s=128&d=identicon&r=PG&f=1",
+                "display_name": "JD2775",
+                "link": "https://stackoverflow.com/users/4439019/jd2775"
+            },
+            "is_answered": false,
+            "view_count": 5,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772744,
+            "creation_date": 1616772744,
+            "question_id": 66819898,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819898/how-do-i-make-this-json-load-method-generic",
+            "title": "How do I make this JSON load method generic"
+        },
+        {
+            "tags": [
+                "react-native",
+                "redux",
+                "react-redux",
+                "redux-saga",
+                "redux-persist"
+            ],
+            "owner": {
+                "reputation": 1952,
+                "user_id": 6455516,
+                "user_type": "registered",
+                "accept_rate": 52,
+                "profile_image": "https://graph.facebook.com/10154051803880210/picture?type=large",
+                "display_name": "Manspof",
+                "link": "https://stackoverflow.com/users/6455516/manspof"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772743,
+            "creation_date": 1616772743,
+            "question_id": 66819897,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819897/react-native-handle-flat-list-when-offline-no-interenet",
+            "title": "react native handle flat list when offline (no interenet)"
+        },
+        {
+            "tags": [
+                "bash"
+            ],
+            "owner": {
+                "reputation": 15263,
+                "user_id": 4317058,
+                "user_type": "registered",
+                "accept_rate": 73,
+                "profile_image": "https://www.gravatar.com/avatar/793760f86b5f237ee07803f468ce7110?s=128&d=identicon&r=PG",
+                "display_name": "Sergey Bushmanov",
+                "link": "https://stackoverflow.com/users/4317058/sergey-bushmanov"
+            },
+            "is_answered": false,
+            "view_count": 9,
+            "answer_count": 2,
+            "score": 0,
+            "last_activity_date": 1616772740,
+            "creation_date": 1616771847,
+            "question_id": 66819662,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819662/change-case-of-text-in-bash-while-looping-through-declared-variable-names",
+            "title": "Change case of text in bash while looping through declared variable names"
+        },
+        {
+            "tags": [
+                "python",
+                "pandas"
+            ],
+            "owner": {
+                "reputation": 129,
+                "user_id": 14736736,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/p49nU.jpg?s=128&g=1",
+                "display_name": "Max",
+                "link": "https://stackoverflow.com/users/14736736/max"
+            },
+            "is_answered": false,
+            "view_count": 4,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772732,
+            "creation_date": 1616772732,
+            "question_id": 66819895,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819895/multiple-inputs-for-filtering-column-values",
+            "title": "multiple inputs for filtering column values"
+        },
+        {
+            "tags": [
+                "php",
+                "html",
+                "css",
+                "wordpress",
+                "twitter-bootstrap"
+            ],
+            "owner": {
+                "reputation": 141,
+                "user_id": 14996946,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/f8f2788f776f5c458c824fe553322bc7?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Tom",
+                "link": "https://stackoverflow.com/users/14996946/tom"
+            },
+            "is_answered": false,
+            "view_count": 23,
+            "answer_count": 1,
+            "score": -1,
+            "last_activity_date": 1616772731,
+            "creation_date": 1616760979,
+            "last_edit_date": 1616761669,
+            "question_id": 66816779,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66816779/using-php-to-filter-posts-by-category",
+            "title": "Using PHP to filter Posts by Category"
+        },
+        {
+            "tags": [
+                "angular",
+                "npm-start"
+            ],
+            "owner": {
+                "reputation": 11,
+                "user_id": 4274021,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/d91a77bc29a4e2bb3fcfd6e9448bbb1d?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Ashikur Rahman Nabir",
+                "link": "https://stackoverflow.com/users/4274021/ashikur-rahman-nabir"
+            },
+            "is_answered": false,
+            "view_count": 16,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772729,
+            "creation_date": 1616771612,
+            "last_edit_date": 1616772729,
+            "question_id": 66819602,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819602/npm-start-angular-11-throws-an-error-unknown-error-syntaxerror-unexpected-t",
+            "title": "npm start (angular 11) throws an error (Unknown error: SyntaxError: Unexpected token &#39;*&#39;)"
+        },
+        {
+            "tags": [
+                "sql-order-by",
+                "union",
+                "between",
+                "row-number"
+            ],
+            "owner": {
+                "reputation": 9,
+                "user_id": 9385085,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=128",
+                "display_name": "ropo ast",
+                "link": "https://stackoverflow.com/users/9385085/ropo-ast"
+            },
+            "is_answered": false,
+            "view_count": 21,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772728,
+            "creation_date": 1615928019,
+            "last_edit_date": 1616772728,
+            "question_id": 66663252,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66663252/how-to-union-two-ordered-queries-in-the-same-table-with-conditions",
+            "title": "How to union two ordered queries in the same table with conditions"
+        },
+        {
+            "tags": [
+                "python",
+                "sparql",
+                "neptune"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 12805964,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mCmPZjlb66Doh4bjXKVFc65r0U6lkyl4s_76Fe1=k-s128",
+                "display_name": "sundaram Shandilya",
+                "link": "https://stackoverflow.com/users/12805964/sundaram-shandilya"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772728,
+            "creation_date": 1616772728,
+            "question_id": 66819894,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819894/delete-clear-all-contents-of-a-neptune-named-graph-using-sparql",
+            "title": "Delete/clear all contents of a neptune named graph using sparql"
+        },
+        {
+            "tags": [
+                "javascript",
+                "html",
+                "jquery",
+                "css"
+            ],
+            "owner": {
+                "reputation": 2579,
+                "user_id": 10715551,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/-8x4H1HHVIAo/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-hc2CYqXQnqd3r2sWKJNmN5NkurzQ/mo/photo.jpg?sz=128",
+                "display_name": "Sara Ree",
+                "link": "https://stackoverflow.com/users/10715551/sara-ree"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772726,
+            "creation_date": 1616772726,
+            "question_id": 66819893,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819893/add-more-than-6-face-contents-to-this-beautiful-hexagon-text-roller",
+            "title": "Add more than 6 face contents to this beautiful Hexagon Text Roller"
+        },
+        {
+            "tags": [
+                "statistics",
+                "ubuntu-20.04",
+                "iostat"
+            ],
+            "owner": {
+                "reputation": 63,
+                "user_id": 15198785,
+                "user_type": "registered",
+                "profile_image": "https://lh5.googleusercontent.com/-qOc9TGrA-34/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucl_guKVD7vXohGiP2MoNYOX7GQfEA/s96-c/photo.jpg?sz=128",
+                "display_name": "xaroulis gekas",
+                "link": "https://stackoverflow.com/users/15198785/xaroulis-gekas"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772726,
+            "creation_date": 1616772726,
+            "question_id": 66819892,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819892/hot-to-get-average-cpu-and-memory-usage",
+            "title": "Hot to get average cpu and memory usage"
+        },
+        {
+            "tags": [
+                "javascript",
+                "reactjs",
+                "google-maps",
+                "google-map-react"
+            ],
+            "owner": {
+                "reputation": 141,
+                "user_id": 13895040,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/626e3ca376caf654c914f6cc39c989e4?s=128&d=identicon&r=PG&f=1",
+                "display_name": "bmalbusca",
+                "link": "https://stackoverflow.com/users/13895040/bmalbusca"
+            },
+            "is_answered": false,
+            "view_count": 24,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1616772721,
+            "creation_date": 1616715657,
+            "last_edit_date": 1616718268,
+            "question_id": 66809057,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66809057/handle-button-events-inside-of-google-maps-infowindow-reactjs",
+            "title": "Handle button events inside of google.maps.infoWindow - ReactJS"
+        },
+        {
+            "tags": [
+                "javascript",
+                "regex"
+            ],
+            "owner": {
+                "reputation": 1251,
+                "user_id": 6447920,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/729ec112ef6682d99bd08cc2dcb0e77b?s=128&d=identicon&r=PG",
+                "display_name": "Bo Borgerson",
+                "link": "https://stackoverflow.com/users/6447920/bo-borgerson"
+            },
+            "is_answered": true,
+            "view_count": 360,
+            "accepted_answer_id": 49662277,
+            "answer_count": 1,
+            "score": 3,
+            "last_activity_date": 1616772720,
+            "creation_date": 1522886858,
+            "question_id": 49662238,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/49662238/how-to-modify-a-javascript-regexp-pattern",
+            "title": "How to modify a JavaScript RegExp pattern"
+        },
+        {
+            "tags": [
+                "python",
+                "tensorflow",
+                "google-coral"
+            ],
+            "owner": {
+                "reputation": 846,
+                "user_id": 7993163,
+                "user_type": "registered",
+                "accept_rate": 100,
+                "profile_image": "https://i.stack.imgur.com/P4RWP.jpg?s=128&g=1",
+                "display_name": "Emiliano Viotti",
+                "link": "https://stackoverflow.com/users/7993163/emiliano-viotti"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772720,
+            "creation_date": 1616772720,
+            "question_id": 66819890,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819890/is-there-a-tensorflowserving-equivalent-for-google-coral-boards",
+            "title": "Is there a TensorFlowServing equivalent for Google Coral Boards?"
+        },
+        {
+            "tags": [
+                "php",
+                "mysql"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 15487472,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/df201a22ca40a28fcb38c49212c86f00?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Sadib Raiyan",
+                "link": "https://stackoverflow.com/users/15487472/sadib-raiyan"
+            },
+            "is_answered": false,
+            "view_count": 9,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772717,
+            "creation_date": 1616772590,
+            "last_edit_date": 1616772717,
+            "question_id": 66819854,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819854/how-do-i-trigger-submit-button-on-php-to-store-the-data-on-database",
+            "title": "How do I trigger submit button on PHP to store the data on database?"
+        },
+        {
+            "tags": [
+                "python",
+                "html",
+                "xpath",
+                "extract",
+                "mixed"
+            ],
+            "owner": {
+                "reputation": 11,
+                "user_id": 15361522,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/ae2156f4e852bc2693f2a8efc86322b3?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Julian",
+                "link": "https://stackoverflow.com/users/15361522/julian"
+            },
+            "is_answered": false,
+            "view_count": 14,
+            "answer_count": 1,
+            "score": 1,
+            "last_activity_date": 1616772716,
+            "creation_date": 1616764705,
+            "question_id": 66817706,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66817706/scrapy-xpath-extract-text-from-different-tags-p-or-li",
+            "title": "Scrapy/XPath extract text from different tags (&lt;p&gt; OR &lt;li&gt;)"
+        },
+        {
+            "tags": [
+                "request",
+                "postman",
+                "axios"
+            ],
+            "owner": {
+                "reputation": 1767,
+                "user_id": 7754086,
+                "user_type": "registered",
+                "accept_rate": 76,
+                "profile_image": "https://www.gravatar.com/avatar/a1edbe30a306701955915bc4fe5e3efe?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Emmanuel ",
+                "link": "https://stackoverflow.com/users/7754086/emmanuel"
+            },
+            "is_answered": true,
+            "view_count": 211911,
+            "accepted_answer_id": 44239543,
+            "answer_count": 9,
+            "score": 143,
+            "last_activity_date": 1616772715,
+            "creation_date": 1495204426,
+            "last_edit_date": 1616772715,
+            "question_id": 44072750,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/44072750/how-to-send-basic-auth-with-axios",
+            "title": "How to send Basic Auth with axios"
+        },
+        {
+            "tags": [
+                "airflow",
+                "aws-glue",
+                "mwaa"
+            ],
+            "owner": {
+                "reputation": 3,
+                "user_id": 8001749,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/1ab8ab596f1975a58e41366d8eeb8de1?s=128&d=identicon&r=PG&f=1",
+                "display_name": "amitav mishra",
+                "link": "https://stackoverflow.com/users/8001749/amitav-mishra"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772714,
+            "creation_date": 1616772714,
+            "question_id": 66819888,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819888/job-failing-on-aws-airflow",
+            "title": "Job failing on AWS Airflow"
+        },
+        {
+            "tags": [
+                "ios",
+                "swift",
+                "swiftui"
+            ],
+            "owner": {
+                "reputation": 207,
+                "user_id": 7825271,
+                "user_type": "registered",
+                "accept_rate": 60,
+                "profile_image": "https://i.stack.imgur.com/PH4QM.jpg?s=128&g=1",
+                "display_name": "Amit",
+                "link": "https://stackoverflow.com/users/7825271/amit"
+            },
+            "is_answered": false,
+            "view_count": 28,
+            "answer_count": 1,
+            "score": -1,
+            "last_activity_date": 1616772713,
+            "creation_date": 1616767591,
+            "last_edit_date": 1616768856,
+            "question_id": 66818482,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66818482/how-to-implement-search-functionality-with-array-of-array-in-swiftui",
+            "title": "How to implement search functionality with array of array in swiftUI?"
+        },
+        {
+            "tags": [
+                "c",
+                "embedded",
+                "stm32f4discovery"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 15475595,
+                "user_type": "registered",
+                "profile_image": "https://lh5.googleusercontent.com/-tPaNzZ_D6aQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnlVOdp-RxTJA7R_N8Y5YVvvHGscQ/s96-c/photo.jpg?sz=128",
+                "display_name": "K\u0131rambor",
+                "link": "https://stackoverflow.com/users/15475595/k%c4%b1rambor"
+            },
+            "is_answered": false,
+            "view_count": 25,
+            "answer_count": 1,
+            "score": 0,
+            "last_activity_date": 1616772711,
+            "creation_date": 1616654273,
+            "question_id": 66794281,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66794281/controlling-frequency-of-sine-wave-with-buttons-in-stm32",
+            "title": "Controlling frequency of sine wave with buttons in stm32"
+        },
+        {
+            "tags": [
+                "windows",
+                "debugging",
+                "winapi",
+                "process"
+            ],
+            "owner": {
+                "reputation": 1,
+                "user_id": 13647479,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/GOrg7.jpg?s=128&g=1",
+                "display_name": "Low_tea",
+                "link": "https://stackoverflow.com/users/13647479/low-tea"
+            },
+            "is_answered": false,
+            "view_count": 14,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772711,
+            "creation_date": 1616759437,
+            "last_edit_date": 1616772711,
+            "question_id": 66816403,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66816403/what-does-ntsd-do-when-killing-a-process",
+            "title": "What does NTSD do when killing a process?"
+        },
+        {
+            "tags": [
+                "jquery",
+                "video.js",
+                "touchscreen"
+            ],
+            "owner": {
+                "reputation": 23,
+                "user_id": 14138462,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/0fc31cea382c37cfca506428507802e1?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Alex",
+                "link": "https://stackoverflow.com/users/14138462/alex"
+            },
+            "is_answered": false,
+            "view_count": 2,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1616772710,
+            "creation_date": 1616772710,
+            "question_id": 66819886,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66819886/how-do-i-differentiate-between-a-click-and-a-touchevent-in-this-app",
+            "title": "How do I differentiate between a click and a touchevent in this app?"
+        },
+        {
+            "tags": [
+                "javascript",
+                "pause"
+            ],
+            "owner": {
+                "reputation": 43,
+                "user_id": 14516128,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/fnpCY.png?s=128&g=1",
+                "display_name": "koukou",
+                "link": "https://stackoverflow.com/users/14516128/koukou"
+            },
+            "is_answered": false,
+            "view_count": 13,
+            "closed_date": 1613840302,
+            "answer_count": 0,
+            "score": -2,
+            "last_activity_date": 1616772709,
+            "creation_date": 1613840274,
+            "last_edit_date": 1616772709,
+            "question_id": 66294201,
+            "link": "https://stackoverflow.com/questions/66294201/how-to-pause-the-javascript-code-while-running",
+            "closed_reason": "Duplicate",
+            "title": "How to pause the JavaScript code while running"
+        },
+        {
+            "tags": [
+                "excel",
+                "conditional-formatting"
+            ],
+            "owner": {
+                "reputation": 31,
+                "user_id": 12643642,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/2787100172416eb75172ff57cc0c3a2e?s=128&d=identicon&r=PG&f=1",
+                "display_name": "Dreterran",
+                "link": "https://stackoverflow.com/users/12643642/dreterran"
+            },
+            "is_answered": false,
+            "view_count": 28,
+            "answer_count": 2,
+            "score": 2,
+            "last_activity_date": 1616772706,
+            "creation_date": 1616686182,
+            "last_edit_date": 1616688433,
+            "question_id": 66802711,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66802711/conditional-formatting-based-off-the-previous-x-number-of-cells",
+            "title": "Conditional formatting based off the previous X number of cells"
+        },
+        {
+            "tags": [
+                "grafana"
+            ],
+            "owner": {
+                "reputation": 63,
+                "user_id": 14799714,
+                "user_type": "registered",
+                "profile_image": "https://lh4.googleusercontent.com/-IdSgTu2fX24/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclAZv4zwbLNZYC9L_DT8GIn5hJ5_g/s96-c/photo.jpg?sz=128",
+                "display_name": "PeterSO",
+                "link": "https://stackoverflow.com/users/14799714/peterso"
+            },
+            "is_answered": false,
+            "view_count": 12,
+            "answer_count": 0,
+            "score": 1,
+            "last_activity_date": 1616772705,
+            "creation_date": 1616745874,
+            "last_edit_date": 1616772705,
+            "question_id": 66813070,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66813070/grafana-configure-dashboard-access-permissions",
+            "title": "Grafana configure dashboard access permissions"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 293
+}
