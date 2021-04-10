@@ -28,11 +28,11 @@ def dict_generator(indict, pre=None):
 class ResultProcessor(object):
     """This object gets a JSON data and makes it super easy to query"""
 
-    def __init__(self, ds:str, type:str):
+    def __init__(self, ds:str, ds_type:str):
         '''
         We can pass in a location of a data source that is a file or a url
         '''
-        if type == "url":
+        if ds_type == "url":
             self.db =  list(dict_generator(requests.get(ds).json()))
         else:
             with open(ds, "r") as f:
@@ -79,7 +79,7 @@ class ResultProcessor(object):
 
 
 
-    
+
 
 
 
