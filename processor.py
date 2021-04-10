@@ -53,21 +53,40 @@ class ResultProcessor(object):
         return len(self.db)
 
 
-    def isKey (self, item:str):
+    def is_key (self, item:str):
         '''
         True if the item is a key false otherwise.
         '''
-        return
+        return item in self.keys
+
+
 
     def get_paths (self, key:str) -> list:
         '''
         If the item is not a key return None
-        If the item is a key return a *list* of all paths that leads to the key
-
+        If the item is root return item
+        If the item is a key and not root return the path
+        return all the *unique*  paths
         A path is a list from root to the key.
 
+        sample input: [['items', 'tags', 'python'], ['items', 'tags', 'c++'], ['items', 'tags', 'windows'], ['items', 'owner', 'reputation', 1933],
+        ['items', 'owner', 'link', 'https://stackoverflow.com/users/4815264/james-mcdowell'], ['items', 'is_answered', False], ['has_more', True]]
+
+        if key is "items" expected output is: items
+        if the key is "is_answered" output is: [['items', 'is_answered']]
+        if the key is "tags" output is: [['items', 'tags']]
         '''
-        return
+        result = []
+        if self.is_key(key):
+            for item in self.db:
+                item_length = len(item)
+                count=0
+                if count< item_length and item[count] == key:
+                        result.append(item[0:-1])
+                        count+=1
+            return result
+        else:
+            return "None"
 
 
     def get_value (self, path:list) -> typing.Any:
@@ -85,12 +104,15 @@ class ResultProcessor(object):
 
 def main():
 
-    rp = ResultProcessor ("explorer_test1.json", "file")
-    #print (rp.db)
-    print (rp.get_depth(max))
-    print (rp.get_depth(min))
-    #print (rp.get_items_at(0))
-    print (rp.get_all_keys())
+    rp = ResultProcessor ("explorer_test2.json", "file")
+    print (rp.db)
+    #print (rp.get_depth(max)) #longest path from root to leaf
+    #print (rp.get_depth(min))
+    #print (rp.get_all_keys())
+    #print(rp.is_key("display_name")) #True
+    #print(rp.is_key("namez")) #False
+
+    #print(rp.get_paths("items"))
 
 
     return
