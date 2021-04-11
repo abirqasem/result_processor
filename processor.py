@@ -3,6 +3,7 @@ import typing
 import requests
 
 
+
 def dict_generator(indict, pre=None):
     '''
     Borrowed code from SO - for now this helps us build the data structure easily - # TODO: we will replace it with our
@@ -60,7 +61,6 @@ class ResultProcessor(object):
         return item in self.keys
 
 
-
     def get_paths (self, key:str) -> list:
         '''
         If the item is not a key return None
@@ -69,7 +69,7 @@ class ResultProcessor(object):
         return all the *unique*  paths
         A path is a list from root to the key.
 
-        sample input: [['items', 'tags', 'python'], ['items', 'tags', 'c++'], ['items', 'tags', 'windows'], ['items', 'owner', 'reputation', 1933],
+        sample input: [['items', 'tags'], ['items', 'tags'], ['items', 'tags'], ['items', 'owner', 'reputation'], ['items', 'owner', 'link'], ['items', 'is_answered'], ['items', 'supin', 'tags']]
         ['items', 'owner', 'link', 'https://stackoverflow.com/users/4815264/james-mcdowell'], ['items', 'is_answered', False], ['has_more', True]]
 
         if key is "items" expected output is: items
@@ -77,16 +77,26 @@ class ResultProcessor(object):
         if the key is "tags" output is: [['items', 'tags']]
         '''
         result = []
-        if self.is_key(key):
+
+        #print(self.db)
+
+        if key in self.get_all_keys():
+
             for item in self.db:
-                item_length = len(item)
-                count=0
-                if count< item_length and item[count] == key:
-                        result.append(item[0:-1])
-                        count+=1
-            return result
+                #print (item)
+                if key in item:
+                    #print(item)
+                    if item[0] == key:
+                        return key
+                    else:
+                        #print(item)
+                        index_item = item.index (key)
+                        result.append(item[:index_item+1])
+            return result[0]
         else:
-            return "None"
+            return "none"
+
+
 
 
     def get_value (self, path:list) -> typing.Any:
@@ -105,14 +115,14 @@ class ResultProcessor(object):
 def main():
 
     rp = ResultProcessor ("explorer_test2.json", "file")
-    print (rp.db)
+    #print (rp.db)
     #print (rp.get_depth(max)) #longest path from root to leaf
     #print (rp.get_depth(min))
     #print (rp.get_all_keys())
     #print(rp.is_key("display_name")) #True
     #print(rp.is_key("namez")) #False
 
-    #print(rp.get_paths("items"))
+    print(rp.get_paths("link"))
 
 
     return

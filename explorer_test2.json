@@ -11,9 +11,11 @@
                 "link": "https://stackoverflow.com/users/4815264/james-mcdowell"
             },
             "is_answered": false,
-            "tags": true
+            "supin": {
+                "bags": true
+            }
         }
     ],
     "has_more": true,
-    "tags": "blah"
+    "gags": "blah"
 }
