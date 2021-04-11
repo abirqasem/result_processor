@@ -115,14 +115,14 @@ class ResultProcessor(object):
 def main():
 
     rp = ResultProcessor ("explorer_test2.json", "file")
-    #print (rp.db)
+    print (rp.db)
     #print (rp.get_depth(max)) #longest path from root to leaf
     #print (rp.get_depth(min))
     #print (rp.get_all_keys())
     #print(rp.is_key("display_name")) #True
     #print(rp.is_key("namez")) #False
 
-    print(rp.get_paths("link"))
+    print(rp.get_paths("tags"))
 
 
     return
