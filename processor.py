@@ -33,13 +33,16 @@ class ResultProcessor(object):
         '''
         We can pass in a location of a data source that is a file or a url
         '''
+
         if ds_type == "url":
-            self.db =  list(dict_generator(requests.get(ds).json()))
+            self.data =  requests.get(ds).json()
         else:
             with open(ds, "r") as f:
-                self.db = list(dict_generator(json.load (f)))
+                self.data = json.load (f)
             f.close()
 
+
+        self.db = list(dict_generator(self.data))
         self.keys = set ()
         for l in self.db:
             self.keys = self.keys| set(l[0:-1])
@@ -64,7 +67,6 @@ class ResultProcessor(object):
     def get_paths (self, key:str) -> list:
         '''
         If the item is not a key return None
-        If the item is root return item
         If the item is a key and not root return the path
         return all the *unique*  paths
         A path is a list from root to the key.
@@ -76,23 +78,27 @@ class ResultProcessor(object):
         if the key is "is_answered" output is: [['items', 'is_answered']]
         if the key is "tags" output is: [['items', 'tags']]
         '''
-        result = []
+        temp = []
+        # if key that has the same name and exists at different levels, all such keys should be returned
+        #
 
+        result=[]
         #print(self.db)
-
         if key in self.get_all_keys():
 
             for item in self.db:
                 #print (item)
                 if key in item:
                     #print(item)
-                    if item[0] == key:
-                        return key
-                    else:
-                        #print(item)
-                        index_item = item.index (key)
-                        result.append(item[:index_item+1])
-            return result[0]
+
+                    index_item = item.index (key)
+                    temp.append(item[:index_item+1])
+            temp = set(tuple(element) for element in temp)
+
+            for item in temp:
+                result.append(list(item))
+
+            return result
         else:
             return "none"
 
@@ -101,9 +107,28 @@ class ResultProcessor(object):
 
     def get_value (self, path:list) -> typing.Any:
         '''
-        return the value if found or None
+        given a list ["a","b","c"] return self.data["a"]["b"]["c"]
+        using explorer_test2.json given ["items","tags"] return self.data["items"]["tags"] which is ["python","c++","windows"]
 
         '''
+        # string=""
+        # for item in path:
+        #     string = string +'["'+str(item)+'"]'
+        # print(string)
+        # x = self.data[eval(string)]
+        # print(x)
+        #string = "self.data"+string
+        list_length = len(path)
+        count=0
+        res=[]
+        while count < list_length:
+            res.append(count)
+            count+=1
+        print(res)
+        
+        print(self.data[path[res[0]]][path[res[1]]])
+
+
 
 
 
@@ -115,14 +140,16 @@ class ResultProcessor(object):
 def main():
 
     rp = ResultProcessor ("explorer_test2.json", "file")
-    print (rp.db)
+    #print (rp.db)
     #print (rp.get_depth(max)) #longest path from root to leaf
     #print (rp.get_depth(min))
     #print (rp.get_all_keys())
     #print(rp.is_key("display_name")) #True
     #print(rp.is_key("namez")) #False
 
-    print(rp.get_paths("tags"))
+    #print(rp.get_paths("tags"))
+
+    rp.get_value(["items","tags"])
 
 
     return
