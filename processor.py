@@ -125,7 +125,7 @@ class ResultProcessor(object):
             res.append(count)
             count+=1
         print(res)
-        
+
         print(self.data[path[res[0]]][path[res[1]]])
 
 
@@ -138,8 +138,17 @@ class ResultProcessor(object):
 
 
 def main():
+    url = "https://script.google.com/macros/s/AKfycbwvCitqB3dFUb0jV2kxqHH7tqr1o8-4MY9wzkmoIqwqoIfcVOs/exec?datarange=code_db"
+    url_so = "https://api.stackexchange.com/2.2/info?site=stackoverflow"
 
-    rp = ResultProcessor ("explorer_test2.json", "file")
+    #rp = ResultProcessor ("explorer_test1.json", "file")
+    rp1 = ResultProcessor (url_so, "url")
+    print (rp1.get_all_keys())
+    print (rp1.get_paths("total_questions"))
+
+
+
+
     #print (rp.db)
     #print (rp.get_depth(max)) #longest path from root to leaf
     #print (rp.get_depth(min))
@@ -147,9 +156,9 @@ def main():
     #print(rp.is_key("display_name")) #True
     #print(rp.is_key("namez")) #False
 
-    #print(rp.get_paths("tags"))
+    #print(rp.get_paths("user_type"))
 
-    rp.get_value(["items","tags"])
+    #rp.get_value(["items","tags"])
 
 
     return
