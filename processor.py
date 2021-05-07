@@ -36,6 +36,7 @@ class ResultProcessor(object):
 
         if ds_type == "url":
             self.data =  requests.get(ds).json()
+
         else:
             with open(ds, "r") as f:
                 self.data = json.load (f)
@@ -142,9 +143,11 @@ def main():
     url_so = "https://api.stackexchange.com/2.2/info?site=stackoverflow"
 
     #rp = ResultProcessor ("explorer_test1.json", "file")
-    rp1 = ResultProcessor (url_so, "url")
-    print (rp1.get_all_keys())
-    print (rp1.get_paths("total_questions"))
+    rp1 = ResultProcessor (url, "url")
+
+    print(rp1.get_size())
+    #print (rp1.get_all_keys())
+    #print (rp1.get_paths("total_questions"))
 
 
 
